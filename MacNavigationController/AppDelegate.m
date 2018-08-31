@@ -21,7 +21,7 @@
     // Insert code here to initialize your application
     
     _mainWindowController = [AppVCsWindowController sharedPrefsWindowController];
-    
+    _mainWindowController.toolbarDisplayMode = 1;
     [_mainWindowController showWindow:nil];
     
 }

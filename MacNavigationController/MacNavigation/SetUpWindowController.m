@@ -143,7 +143,15 @@
         [toolbar setAllowsUserCustomization:NO];
         [toolbar setAutosavesConfiguration:NO];
         [toolbar setSizeMode:NSToolbarSizeModeDefault];
-        [toolbar setDisplayMode:NSToolbarDisplayModeIconAndLabel];
+        //NSToolbar风格：图标＋文字形式
+        if (_toolbarDisplayMode == 2) {
+            [toolbar setDisplayMode:NSToolbarDisplayModeLabelOnly];
+        }else if (_toolbarDisplayMode == 3){
+            [toolbar setDisplayMode:NSToolbarDisplayModeIconOnly];
+        }else{
+            [toolbar setDisplayMode:NSToolbarDisplayModeIconAndLabel];
+        }
+        
         [toolbar setDelegate:(id<NSToolbarDelegate>)self];
         [[self window] setToolbar:toolbar];
     }

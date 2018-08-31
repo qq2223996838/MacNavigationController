@@ -91,15 +91,6 @@
 				E6CD1A8D2137CEDC0041ACB3 /* MacNavigation */,
 				E6CD1A792137CE650041ACB3 /* AppDelegate.h */,
 				E6CD1A7A2137CE650041ACB3 /* AppDelegate.m */,
-				E6CD1AAE2137D5260041ACB3 /* NSWindow1Controller.h */,
-				E6CD1AAF2137D5260041ACB3 /* NSWindow1Controller.m */,
-				E6CD1AB02137D5260041ACB3 /* NSWindow1Controller.xib */,
-				E6CD1AB32137D5320041ACB3 /* NSWindow2Controller.h */,
-				E6CD1AB42137D5320041ACB3 /* NSWindow2Controller.m */,
-				E6CD1AB52137D5320041ACB3 /* NSWindow2Controller.xib */,
-				E6CD1AB82137D53F0041ACB3 /* NSWindow3Controller.h */,
-				E6CD1AB92137D53F0041ACB3 /* NSWindow3Controller.m */,
-				E6CD1ABA2137D53F0041ACB3 /* NSWindow3Controller.xib */,
 				E6CD1AA42137D3090041ACB3 /* Advanced.png */,
 				E6CD1AA72137D30A0041ACB3 /* Colors.png */,
 				E6CD1AA52137D3090041ACB3 /* General.png */,
@@ -129,6 +120,15 @@
 		E6CD1AAD2137D4CA0041ACB3 /* MacWindowViewJump */ = {
 			isa = PBXGroup;
 			children = (
+				E6CD1AAE2137D5260041ACB3 /* NSWindow1Controller.h */,
+				E6CD1AAF2137D5260041ACB3 /* NSWindow1Controller.m */,
+				E6CD1AB02137D5260041ACB3 /* NSWindow1Controller.xib */,
+				E6CD1AB32137D5320041ACB3 /* NSWindow2Controller.h */,
+				E6CD1AB42137D5320041ACB3 /* NSWindow2Controller.m */,
+				E6CD1AB52137D5320041ACB3 /* NSWindow2Controller.xib */,
+				E6CD1AB82137D53F0041ACB3 /* NSWindow3Controller.h */,
+				E6CD1AB92137D53F0041ACB3 /* NSWindow3Controller.m */,
+				E6CD1ABA2137D53F0041ACB3 /* NSWindow3Controller.xib */,
 			);
 			path = MacWindowViewJump;
 			sourceTree = "<group>";

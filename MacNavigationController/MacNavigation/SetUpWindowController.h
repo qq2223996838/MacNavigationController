@@ -12,6 +12,7 @@
 
 @property (nonatomic) BOOL crossFade;
 @property (nonatomic) BOOL shiftSlowsAnimation;
+@property (nonatomic) int toolbarDisplayMode;//1、图标+文字 2、文字 3、图标
 
 + (SetUpWindowController *)sharedPrefsWindowController;
 + (NSString *)nibName;

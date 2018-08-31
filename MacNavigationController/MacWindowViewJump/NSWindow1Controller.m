@@ -43,7 +43,6 @@
 
 -(void)buttonClick:(id)sender
 {
-    NSLog(@"进来了33333");
     
     NSWindow2Controller *nextWindowController = [[NSWindow2Controller alloc] initWithWindowNibName:NSStringFromClass([NSWindow2Controller class])];
     
@@ -54,11 +53,5 @@
     [self.window orderOut:nil];
 }
 
-
-
-- (void)stopDisappear
-{
-    NSLog(@"我进来了44444");
-}
 
 @end

@@ -17,7 +17,7 @@
 @implementation AppVCsWindowController
 
 - (void)setupToolbar{
-    //这里label 是指名字 和 图片名字
+    
     [self addView:self.generalPreferenceView label:@"General" imageUrl:@"General"];
     [self addView:self.colorsPreferenceView label:@"Colors" imageUrl:@"Colors"];
     [self addView:self.playbackPreferenceView label:@"Playback" imageUrl:@"Playback"];
